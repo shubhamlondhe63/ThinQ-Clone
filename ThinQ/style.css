@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 15px;
+}
+
+.navbar-collapse ul li {
+    margin: 5px;
+    background: #262b72;
+    border-radius: 35px;
+    padding: 2px 10px;
+    cursor: pointer;
+
+}
+
+.navbar {
+    min-height: 130px;
+    z-index: 1;
+    position: relative;
+}
+
+a {
+    color: white !important;
+}
+
+.mybtn {
+    background-color: blue;
+    animation: changecolor 1300ms infinite;
+}
+
+@keyframes changecolor {
+    0% {
+        background-color: red;
+    }
+
+    50% {
+        background-color: blue;
+    }
+
+    100% {
+        background-color: red;
+
+    }
+}
+
+.mainwrapper {
+    width: 90%;
+    margin: auto;
+    
+}
+
+.notice {
+    width: 85%;
+    display: inline-block;
+    z-index: 1000;
+    padding: 12px;
+}
+
+
+.trendingbtn {
+    background-color: #262b72;
+    color: #fff;
+    z-index: 1000;
+    padding: 18px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 15%;
+    display: inline-block;
+}
+
+
+.noticeBoard {
+    background: #fff2a8;
+    margin: 20px 0px;
+    padding-top: 0;
+    height: 60px;
+    border-radius: 15px;
+}
+
+.maincontent {
+    padding: 40px;
+    padding-top: 0px;
+
+}
+
+.info {
+    background-color: #cff4fc;
+    color: #245e69;
+    font-size: 21px;
+    padding: 25px;
+}
+
+.bold {
+    color: #055160 !important;
+    font-weight: bolder;
+
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.info p {
+    line-height: 2.1rem;
+}
+
+.whatthinq {
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    font-size: xx-large;
+    background-color: #262b72;
+    color: white;
+    border-radius: 25px;
+    margin-top: 1rem;
+
+}
+
+.Participantsbtn {
+    width: 70%;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    font-size: x-large;
+    background-color: #262b72;
+    color: white;
+    border-radius: 25px;
+    margin-top: 1rem;
+}
+
+.info_2 p {
+    font-size: 18px;
+    padding: 25px;
+    line-height: 1.8rem;
+    margin-bottom: 0px;
+}
+
+.bold-red {
+    color: red;
+}
+
+
+.sponsers img {
+    width: 100%;
+    height: auto;
+}
+
+.owl-carousel div{
+    padding: 5px;
+}
+
+.footer{
+    background-color: #262b72;
+}
+
+
+
